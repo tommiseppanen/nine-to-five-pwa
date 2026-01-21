@@ -11,9 +11,9 @@ export default defineConfig({
       registerType: 'autoUpdate',
       includeAssets: ['favicon.ico', 'apple-touch-icon.png', 'masked-icon.svg'],
       manifest: {
-        name: 'Arrival Times',
-        short_name: 'Arrivals',
-        description: 'Track daily arrival times',
+        name: 'Nine to Five',
+        short_name: '9to5',
+        description: 'Track daily work times',
         theme_color: '#039BE5',
         background_color: '#ffffff',
         display: 'standalone',
