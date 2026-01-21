@@ -1,0 +1,1 @@
+if('serviceWorker' in navigator) {window.addEventListener('load', () => {navigator.serviceWorker.register('/nine-to-five-pwa/sw.js', { scope: '/nine-to-five-pwa/' })})}
