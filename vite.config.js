@@ -17,8 +17,8 @@ export default defineConfig({
         theme_color: '#039BE5',
         background_color: '#ffffff',
         display: 'standalone',
-        scope: '/',
-        start_url: '/',
+        scope: '/nine-to-five-pwa/',
+        start_url: '/nine-to-five-pwa/',
         orientation: 'portrait',
         icons: [
           {
