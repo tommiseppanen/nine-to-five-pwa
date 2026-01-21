@@ -76,7 +76,7 @@ function App() {
   };
 
   const calculateTimes = (currentStartTime, currentTimeJson) => {
-    const currentTimeString = currentStartTime.format('HH:mm') + " - " + currentStartTime.clone().add(480, 'minutes').format('HH:mm');
+    const currentTimeString = currentStartTime.format('HH:mm') + " - " + currentStartTime.clone().add(420, 'minutes').format('HH:mm');
     const minutes = moment.duration(moment(currentTimeJson).diff(currentStartTime)).asMinutes();
     const baseLength = Math.floor(minutes / 30) * 30;
     const target1 = currentStartTime.clone().add(baseLength + 30, 'minutes');
@@ -97,7 +97,7 @@ function App() {
           {state.currentDate}
         </h1>
         <div className="header-detail">
-          {state.currentTimeString} (7.5h)
+          {state.currentTimeString} (6.5h)
         </div>
         <div className="header-detail">
           {state.primaryTarget} ({state.primaryLength}h)
