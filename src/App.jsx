@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import _ from 'lodash';
 import moment from 'moment';
-import './index.css';
+import './App.css';
 
 const DATA_KEY = 'arrival-times';
 
